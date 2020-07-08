@@ -37,7 +37,7 @@
 
 1. 원격 저장소 (remote repository) 생성
 
-2. 로컬 리포 => 리모트 리포 연결하기 
+2. local repo => remote repo 연결하기 
 
    `$ git remote add origin <URL>`
 
@@ -49,5 +49,11 @@
 
    `$ git push -u origin master`
 
-   
+5. 다른 컴퓨터에서 remote repo 를 **최초로** 받아오기
+
+   `$ git clone <URL>`
+
+6. 이후 remote repo 변경사항을 local repo에서 반영하기
+
+   `$ git pull`
 
