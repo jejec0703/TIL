@@ -20,8 +20,6 @@
 
       ```'email@mail'```
 
-      
-
 4. 리포의 상태 보기 ```$ git status```
 
 5. stage 에 올리기 ```$ git add```
@@ -35,13 +33,17 @@
 
    
 
-## 집 컴퓨터 세팅
+## 집 컴퓨터 세팅 (딱 한번만 하면 됨)
 
 1. git 다운로드 및 설정
-2. `$ git config --global .....`
-3. `$ git clone <URL>`
 
+2. windows 키 누르고 ==> git bash 찾아서 실행 (집컴의 홈폴더 ~)
 
+3. `$ git config --global .....`
+
+4. `$ git clone <URL>`
+
+   
 
 ## github
 
