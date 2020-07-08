@@ -1,5 +1,7 @@
 # git intro
 
+## local git (내 컴퓨터에서 버전 관리 하는 방법)
+
 1. 초기화 ```$ git init```
 
    1.  실제로는 폴더에 .git/폴더가 생성됨
@@ -28,4 +30,24 @@
 5. snapshot(사진) 찍기 ```$ git commit```
 
 6. 로그(사진첩) 보기 ```$ git log```
+
+
+
+## github
+
+1. 원격 저장소 (remote repository) 생성
+
+2. 로컬 리포 => 리모트 리포 연결하기 
+
+   `$ git remote add origin <URL>`
+
+3. 로컬 커밋들을 리모트로 보내기 
+
+   `$ git push origin master`
+
+4. `$ git push == $ git push origin master` 로 단축 명령하기
+
+   `$ git push -u origin master`
+
+   
 
